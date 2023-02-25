@@ -1,0 +1,135 @@
+
+.img_logo{
+    padding: 0%;
+    margin-top: 0%;
+      height:30px;   
+  }
+
+  nav a:hover {
+    background-color: rgb(226, 180, 195);
+    color: white;
+    border: 1px xolid black;
+  }
+
+.carousel-inner{
+    height: 65vh;
+
+}
+
+.carousel-item img{
+  height: 65vh;
+  
+}
+
+.abt-cont{
+  width: 80%;
+}
+
+.card{
+    box-shadow: 3px 3px 5px rgb(108, 99, 99);
+
+}
+
+.card1,.card3{
+  background-color: #bac8f0;
+}
+
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transform: translateY(-5px);
+  }
+
+.last_img{
+    height: 43vh;
+    /* width:70vw; */   
+    padding-left: 15vw;
+    /* float: left; */
+    padding-bottom: 2vh;
+  }
+
+  .social_media a{
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    transition: .6s;
+    
+  }
+
+  .social_media i{
+    text-align: center;
+    font-size: 25px;
+  }
+
+.social_media a .fa:hover{
+   transform: scale(0.8);
+}
+.insta{
+    color: #e64088;
+    
+}
+
+.github{
+    color: #737b85;
+}
+
+.linkenin{
+    color: rgb(41, 73, 154);
+}
+
+#success-message {
+  display: none;
+  background-color: #65bd68;
+  color: white;
+  padding: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  
+}
+
+@media screen and (max-width: 576px) {
+  .projects .container hr{
+    margin-bottom: 1px;
+  }  
+ 
+    .carousel-inner{
+        height: 50vh;
+    
+    }
+    
+    .carousel-item img{
+      height: 50vh;
+      
+    }
+
+    .abt-cont{
+      margin-left:3px;      
+    }
+
+    .row-cont form{
+      width: 80%;
+      align-items: center;
+      margin-left: 35px;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-inner{
+    height: 50vh;
+
+}
+
+.carousel-item img{
+  height: 50vh;
+  
+}
+} 
+
+@media screen and (max-width: 868px) {
+   .abt-cont{
+    width: 100%;
+   }
+    .card3{
+      width: 25rem ;
+    }   
+}
